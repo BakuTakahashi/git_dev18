@@ -1,0 +1,450 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+html {
+    font-size: 62.5%;
+}
+body {margin-left: 100px; ;
+
+}
+
+header {
+    width: 1200px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+.header-wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.header_logo {
+    width: 200px;
+    float: left;
+}
+
+
+ul {
+    text-decoration: none;
+    margin-left: 330px;
+    
+}
+
+.header-list {
+    padding-top: 20px;
+
+}
+
+.menu {
+    font-weight: bold;
+    font-size: 8px;
+    float: left;
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    width: 1200px;
+}
+
+.main-title {
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-pic {
+    width: 100%;
+    margin: auto;
+
+}
+
+.main-title h1 {
+    position: absolute;
+    color:white;
+    top: 40%;
+    left: 20%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main-title p {
+    position: absolute;
+    color:white;
+    top: 60%;
+    left: 25%;
+    font-size: 15px;
+}
+  
+.main-about {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.main-about h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: orange;
+    font-weight: bold;
+}
+
+.main-about h3 {
+    font-size: 15px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.main-about p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.pic {
+    width: 175px;
+    height: 150px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-course {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.main-course h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 230px;
+    font-weight: bold;
+}
+
+.main-course h3 {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+} 
+
+.main-course h4 {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.course-pic {
+    width: 350px;
+    height: 250px;
+    float: left;
+}
+
+.introduction {
+    float: left;
+    width: 350px;
+    height: 250px;
+    background-color: #fafafa;
+}
+
+.introduction h3 {
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.introduction p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.introduction-reverse h3 {
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.introduction-reverse p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.course-pic-reverse{
+    width: 350px;
+    height: 250px;
+    float: right;
+}
+
+.introduction-reverse {
+    float: right;
+    width: 350px;
+    height: 250px;
+    background-color: #fafafa;
+}
+
+.main-news {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.main-news h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 840px;
+    font-size: 20px;
+
+}
+
+.main-news h3 {
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+}
+.news-wrapper {
+    width: 100%;
+}
+
+.news-contents {
+    width: 30%;
+    float: left;
+    padding: 11px;
+}
+
+.news-contents:hover {
+    background-color: gold;
+
+}
+
+.news-contents p {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.news-contents p {
+    text-align: center;
+}
+
+.main-access{
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.access-wrapper {
+    padding: 10px;
+ 
+
+}
+.main-access h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 320px;
+
+}
+
+.main-access h3 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+
+.main-access p {
+    text-align: center;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.map{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main-contact {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.main-contact h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.main-contact h3 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-contact p {
+    text-align: center;
+    font-size: 12px;
+    margin: 5px;
+
+
+}
+
+.main-contact dl {
+    text-align: center;
+}
+
+
+.form {
+    margin-top: 20px;
+}
+
+.table-res-form {
+    width: 500px;
+    margin: 0 auto;
+    height: 200px;
+}
+/*一行ごとに上ボーダー*/
+.table-res-form tr {
+    border-top: 1px #DDD solid;
+}
+/*一番上の行だけボーダーなし*/
+.table-res-form tr:first-child {
+    border-top: none;
+}
+/*奇数行だけ背景色つける*/
+.table-res-form tr:nth-child(2n+1) {
+    background: #eee;
+}
+/*thとtd内の余白指定*/
+.table-res-form th, .table-res-form td {
+    vertical-align: middle;
+    padding: 1.5em;
+}
+/*th（項目欄）は30%幅、テキストを右寄せ*/
+.table-res-form th {
+    width: 30%;
+    text-align: right;
+}
+/*「必須」部分のスタイリング*/
+.table-res-form .requied {
+    font-size: 0.8em;
+    color: #FFF;
+    display: inline-block;
+    padding: 0.3em 0.3em 0.2em;
+    background: red;
+    border-radius: 2px;
+}
+
+/*ここから768px以下の指定*/
+
+@media only screen and (max-width: 768px) {
+　　　　　/*thとtdをブロック化して幅100％にして、縦積み*/
+    .table-res-form th, .table-res-form td {
+        width: 100%;
+        display: block;
+    }
+　　　　　/*th（項目名）欄の不要な余白削除・テキスト左寄せ*/
+    .table-res-form th {
+        padding-bottom: 0;
+        text-align: left;
+    }
+　　　　　/*不要な最終行の左のthを非表示にする*/
+    .table-res-form .empty {
+        display: none;
+    }
+}
+
+
+/*ここから入力欄のスタイル指定*/
+
+/*各入力フォームスタイリング*/
+.table-res-form input[type="text"], input[type="email"], textarea {
+    border: 1px #89BDDE solid;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+    width: 80%;
+}
+/*入力欄にフォーカスしたら変化*/
+.table-res-form input[type="text"]:focus, textarea:focus {
+    background: #EEFFFF;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+/*送信ボタンスタイリング*/
+.input {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+th-in {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+input[type="submit"] {
+    margin-left: 320px;
+    padding: 1px 10px;
+
+    border: 1px #89BDDE solid;
+    border-radius: 5px;
+    background: #4C9ED9;
+    color: #fff;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+
+/*送信ボタン・マウスオーバー時スタイリング*/
+.input input[type="submit"]:hover {
+    background: gold;
+    box-shadow: none;
+}
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 1200px;
+    
+}
+
+.footer {
+    width: 700px;
+    height: 40px;
+    font-size: 15px;
+    color: honeydew;
+    margin: 0 auto;
+    background-color: gray;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
